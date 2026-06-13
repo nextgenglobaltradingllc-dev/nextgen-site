@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextgen Global Trading | Computer & Accessories Trading</title>
+    <style>
+        /* Global Reset & Typography */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0046be; /* Premium tech blue */
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: #ff6a00; /* Vibrant tech orange accented highlight */
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #555;
+            margin-left: 25px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #0046be;
+        }
+
+        /* Hero Banner Section */
+        .hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #ffffff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #cbd5e1;
+            margin-bottom: 35px;
+        }
+
+        .btn-primary {
+            background-color: #ff6a00;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            background-color: #e05d00;
+        }
+
+        /* Core Verticals Grid Section */
+        .features {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 50px;
+            color: #0f172a;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            text-align: center;
+            border-top: 4px solid #0046be;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #1e293b;
+        }
+
+        /* Footer Style */
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            padding: 40px 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 100px;
+        }
+
+        /* FLOATING WHATSAPP BUTTON UTILITY */
+        .whatsapp-pulse-1 {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 5px 15px rgba(0,0,0,0.3);
+            z-index: 9999;
+            transition: transform 0.3s ease;
+        }
+
+        .whatsapp-pulse-1:hover {
+            transform: scale(1.1);
+        }
+
+        .whatsapp-pulse-1 svg {
+            width: 32px;
+            height: 32px;
+            fill: currentColor;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            .nav-container { flex-direction: column; gap: 15px; }
+            .nav-links a { margin: 0 10px; }
+            .hero h1 { font-size: 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">NEXTGEN <span>GLOBAL</span></div>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#operations">What We Do</a>
+                <a href="https://wa.me/971558380230" target="_blank">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <h1>Nextgen Global Trading FZC LLC</h1>
+            <p>Your premier partner in high-performance computing systems, IT accessories, and global distribution. Delivering hardware reliability across physical B2B trade lines and streamlined e-commerce operations.</p>
+            <a href="https://wa.me/971558380230" target="_blank" class="btn-primary">Inquire Now</a>
+        </div>
+    </section>
+
+    <section class="features" id="operations">
+        <h2 class="section-title">Core Operations</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>B2B Offline Trading</h3>
+                <p>Bulk sourcing and commercial distribution infrastructure supplying computing hardware, enterprise systems, and peripheral accessories across traditional enterprise commercial networks.</p>
+            </div>
+            <div class="card" style="border-top-color: #ff6a00;">
+                <h3>E-Commerce Operations</h3>
+                <p>Dynamic end-to-end digital retail pathways, facilitating fast direct procurement deployment and responsive digital storefront management for IT peripherals.</p>
+            </div>
+            <div class="card">
+                <h3>Computer & Accessories Support</h3>
+                <p>Comprehensive ecosystem availability of hardware components, internal systems arrays, data links, and essential workspace tech enhancements.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nextgen Global Trading FZC LLC. All Rights Reserved.</p>
+    </footer>
+
+    <a href="https://wa.me/971558380230" class="whatsapp-pulse-1" target="_blank" rel="noopener nofollow" title="Chat with us on WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.003 5.419 5.422 0 12.04 0c3.206.001 6.22 1.249 8.486 3.518 2.266 2.268 3.511 5.286 3.51 8.494-.003 6.62-5.422 12.038-12.04 12.038-2.007-.001-3.98-.503-5.732-1.46L0 24zm6.59-4.846c1.6.95 3.588 1.451 5.407 1.453 5.436 0 9.859-4.42 9.863-9.855.002-2.63-1.023-5.101-2.884-6.964C17.177 1.825 14.708 1.001 12.045 1c-5.438 0-9.863 4.42-9.866 9.856-.001 1.84.5 3.633 1.452 5.2l-.104.382-1.012 3.693 3.778-1.014.374.221zM17.56 14.14c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        </svg>
+    </a>
+
+</body>
+</html>
